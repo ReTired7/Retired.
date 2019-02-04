@@ -27,4 +27,4 @@ client.on('ready', () => {
   console.log('')
 });
 
-client.login('token');
+client.login('NTQxODA4MTM2MjUyNjg2MzQ2.Dzk-gQ.UxYUkOsIuwFt6yT7FPI5neYvPRo');
