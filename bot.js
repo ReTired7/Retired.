@@ -1,17 +1,19 @@
-const prefix = '_'const Discord = require('discord.js');
-const fs = require('fs');
+const Discord = require("discord.js");
 const client = new Discord.Client();
+const prefix = "_";
 
 
 
 client.on('ready', () => {
-  console.log(`Welcome Bro ${client.user.tag}!`);
+   console.log(`----------------`);
+      console.log(`Desert Bot- Script By : EX Clan`);
+        console.log(`----------------`);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
+    console.log(`----------------`);
+  console.log(`Logged in as ${client.user.tag}!`);
+client.user.setGame(`play -help|BY Retired`,"http://twitch.tv/Death Shop")
+client.user.setStatus("dnd")
 });
-client.on('message', message => {
-  if (!message.content.startsWith(prefix)) return;
-  var args = message.content.split(' ').slice(1);
-  var argresult = args.join(' ');
-  if (message.author.id !== "460389855382470662") return;
 
   
   if (message.content.startsWith(prefix + 'setwatch')) {
