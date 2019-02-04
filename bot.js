@@ -15,6 +15,7 @@ client.user.setGame(`play -help|BY Retired`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
+ var prefix = "#"
 client.on('message', message => {
   if (!message.content.startsWith(prefix)) return;
   var args = message.content.split(' ').slice(1);
