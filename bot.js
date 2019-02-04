@@ -6,12 +6,12 @@ const prefix = "~";
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Desert Bot- Script By : EX Clan`);
+      console.log(`Desert Bot- Script By : Retir'ed`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : Retir'ed ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`play -help|BY Retired`,"http://twitch.tv/Death Shop")
+client.user.setGame(`-help | BY Retired`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
