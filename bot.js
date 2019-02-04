@@ -11,7 +11,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : ReTir'ed ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`play -help|BY Retired`,"http://twitch.tv/Death Shop")
+client.user.setGame(`-help|BY Retir'ed`)
 client.user.setStatus("dnd")
 });
 
@@ -148,13 +148,13 @@ client.on("message", async message => {
         let help = new Discord.RichEmbed()
             .setColor("RANDOM")
             .setThumbnail(message.author.avatarURL)
-            .setDescription(`**__برودكاست بوت | Version 1.1__ 
-
+            .setDescription(`**BOT ReTir'ed
             برودكاست عادي : ${prefix}bc
             دعوة البوت لسيرفرك : ${prefix}invite
             معلومات عن السيرفر : ${prefix}server
             برودكاست للأونلاين فقط : ${prefix}bco
             يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
+            معلومه هامه : البوت خاص  ل ReTir'ed
             رابط سيرفر الدعم الفني : https://discord.gg/kWEbbRH 
             **`);
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
