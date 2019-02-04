@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = "~";
+const prefix = "=";
 
 
 
@@ -11,7 +11,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : Retir'ed ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`-help | BY Retired`,"http://twitch.tv/Death Shop")
+client.user.setGame(`=help | BY Retired`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
