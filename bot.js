@@ -4,6 +4,7 @@ const client = new Discord.Client();
 client.on('ready', () => {
   console.log(Logged in as ${client.user.tag}!);
  client.user.setActivity("!help",{type: 'Retired'})
+  
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -27,4 +28,4 @@ client.on('ready', () => {
   console.log('')
 });
 
-client.login('NTQxODA4MTM2MjUyNjg2MzQ2.Dzk-gQ.UxYUkOsIuwFt6yT7FPI5neYvPRo');
+client.login('token');
