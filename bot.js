@@ -6,9 +6,9 @@ const prefix = "-";
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Desert Bot- Script By : EX Clan`);
+      console.log(`Desert Bot- Script By : ReTir'ed`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : ReTir'ed ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
 client.user.setGame(`play -help|BY Retired`,"http://twitch.tv/Death Shop")
@@ -185,4 +185,4 @@ client.on("message", message => { //clear
 
 
 
-client.login('NTQxNDg2NjkyMzczMjMzNjgy.Dzj1uA.YFJE0I6RYjtWRLYKNpR6_McRa4w');
+client.login(process.env.BOT_TOKEN);
