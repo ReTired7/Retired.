@@ -11,7 +11,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : Retir'ed ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setplay(`=help | BY Retired`)
+client.user.setplaying(`=help | BY Retired`)
 client.user.setStatus("dnd")
 });
 
