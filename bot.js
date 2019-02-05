@@ -11,7 +11,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : Retir'ed ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`=help | BY Retired`,"http://twitch.tv/Death Shop")
+client.user.setplay(`=help | BY Retired`)
 client.user.setStatus("dnd")
 });
 
@@ -155,7 +155,7 @@ client.on("message", async message => {
             برودكاست للأونلاين فقط : ${prefix}bco
             يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
             ملحوظه هامه : تم صنع البوت من ReTir'ed
-            رابط سيرفر الدعم الفني : https://discord.gg/kWEbbRH
+            رابط سيرفر الدعم الفني : https://discord.gg/76TCntZ
             **`);
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
     }
