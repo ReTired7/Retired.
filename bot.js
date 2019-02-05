@@ -155,7 +155,7 @@ client.on("message", async message => {
             برودكاست للأونلاين فقط : ${prefix}bco
             يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
             ملحوظه هامه : تم صنع البوت من ReTir'ed
-            رابط سيرفر الدعم الفني : https://discord.gg/76TCntZ
+            رابط سيرفر الدعم الفني : https://discord.gg/US3yrjJ
             **`);
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
     }
