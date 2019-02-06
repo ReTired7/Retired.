@@ -118,7 +118,7 @@ client.on("message", async message => {
                     .setDescription(`Members :bust_in_silhouette: : ${message.guild.memberCount}\nOwner :crown: : ${message.guild.owner.user.username}\nServer ID :id: : ${message.guild.id}\nRoles :lock: : ${message.guild.roles.size}\nRegion :earth_africa: : ${message.guild.region.toUpperCase()}`);
                     
                     message.channel.sendEmbed(server);
-                    by : ReTir'ed
+                    
     }
 });
 client.on("message", async message => {
