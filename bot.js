@@ -121,6 +121,19 @@ client.on("message", async message => {
                     
     }
 });
+
+client.on("message", async message => {
+    if(message.content.startsWith(prefix + "help")) {
+        let help = new Discord.RichEmbed()
+            .setColor("RANDOM")
+            .setThumbnail(message.author.avatarURL)
+            .setDescription(`** BY ReTir'ed
+            كل الحقوق محفوظه ل ReTir'ed
+            **`);
+            message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
+    }
+});
+
 client.on("message", async message => {
     if(message.content.startsWith(prefix + "banned")) {
         if(!message.guild) return;
