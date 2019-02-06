@@ -123,7 +123,7 @@ client.on("message", async message => {
 });
 
 client.on("message", async message => {
-    if(message.content.startsWith(prefix + "help")) {
+    if(message.content.startsWith(prefix + "=server")) {
         let help = new Discord.RichEmbed()
             .setColor("RANDOM")
             .setThumbnail(message.author.avatarURL)
