@@ -11,7 +11,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : Retir'ed ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`=help|BY Retired`,"http://twitch.tv/Death Shop")
+client.user.setGame(`=help|BY ReTired`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
@@ -123,14 +123,13 @@ client.on("message", async message => {
 });
 
 client.on("message", async message => {
-    if(message.content.startsWith(prefix + "server")) {
+    if(message.content.startsWith(prefix + "info")) {
         let help = new Discord.RichEmbed()
             .setColor("RANDOM")
             .setThumbnail(message.author.avatarURL)
             .setDescription(`** 
-            كل الحقوق محفوظه ل ReTir'ed
-            للتواصل معه ديسكورد
-            ReTir'ed#1000
+            الذي صنع البوت هو ReTir'ed 
+            للتواصل معه في الديسكورد ReTir'ed#1000
             **`);
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
     }
@@ -169,8 +168,7 @@ client.on("message", async message => {
             معلومات عن السيرفر : ${prefix}server
             برودكاست للأونلاين فقط : ${prefix}bco
             يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
-            ملحوظه هامه : تم صنع البوت من ReTir'ed
-            رابط سيرفر الدعم الفني : https://discord.gg/US3yrjJ
+            لمعرفه من صنع البوت وللتواصل معه :${prefix}info
             **`);
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
     }
