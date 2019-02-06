@@ -123,12 +123,14 @@ client.on("message", async message => {
 });
 
 client.on("message", async message => {
-    if(message.content.startsWith(prefix + "=server")) {
+    if(message.content.startsWith(prefix + "server")) {
         let help = new Discord.RichEmbed()
             .setColor("RANDOM")
             .setThumbnail(message.author.avatarURL)
-            .setDescription(`** BY ReTir'ed
+            .setDescription(`** 
             كل الحقوق محفوظه ل ReTir'ed
+            للتواصل معه ديسكورد
+            ReTir'ed#1000
             **`);
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
     }
